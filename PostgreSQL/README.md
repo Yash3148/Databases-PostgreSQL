@@ -8,3 +8,5 @@ Open Source Relational Database Management System (RDBMS)
 4. Community Support
 
 Client ---> Server ---> app.js ---> Database 
+
+csv --> Comma Spreaded Values
