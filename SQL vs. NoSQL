@@ -1,0 +1,13 @@
+Data Persistence 
+
+Types of Databases 
+
+1. Structured Query Language (SQL) Databases/ Relational Databases
+Ex: Oracle DB, MySQL, PostgreSQL, SQLite, & Cetera.
+
+
+2. No Structured Query Language (No SQL) Databases 
+Examples are MongoDB and Cassandra. These types of database use JSON-like documents instead of tables to store data.
+Ex: MongoDB, Cassandra, HBase, Redis, Google BigTable, Amazon DynamoDB etc.
+
+So, Vertically means having records, & horizontally means having fields.
