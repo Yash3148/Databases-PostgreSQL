@@ -48,11 +48,13 @@ INSERT INTO homework_submission (mark, student_id)
 VALUES (98, 1), (87, 1), (88, 1)
 
 -- Join --
+1. 
 SELECT *
 FROM student
 JOIN homework_submission
 ON student.id = student_id
 
+2.
 SELECT student.id, first_name, last_name, mark
 FROM student
 JOIN homework_submission
@@ -81,11 +83,13 @@ INSERT INTO enrollment (student_id, class_id ) VALUES (1, 1), (1, 2);
 INSERT INTO enrollment (student_id ,class_id) VALUES (2, 2), (2, 3);
 
 -- Join --
+1.
 SELECT *
 FROM enrollment 
 JOIN student ON student.id = enrollment.student_id
 JOIN class ON class.id = enrollment.class_id;
 
+2.
 SELECT student.id AS id, first_name, last_name, title
 FROM enrollment 
 JOIN student ON student.id = enrollment.student_id
