@@ -64,3 +64,7 @@ WHERE id = 2
 
 DELETE FROM products
 WHERE name = "Pen"
+
+NOT NULL --> Missing or empty values are not allowed. Attempts to add NULL will result in a error. 
+
+UNIQUE --> Value cannot be repated in the table. No other value stored can be the same (avoids duplicates)
